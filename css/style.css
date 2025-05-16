@@ -1,5 +1,7 @@
+
+
 html {
-  --s: 112px; /* control the size*/
+  --s: 112px; 
   --c1: #1d1d1d;
   --c2: #4e4f51;
   --c3: #3c3c3c;
@@ -24,4 +26,17 @@ html {
       calc(100% + var(--s)) calc(100% + var(--s)*tan(30deg)),
       var(--s) calc(var(--s)*tan(30deg));
   }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
 }
