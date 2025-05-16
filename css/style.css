@@ -17,14 +17,10 @@ html {
 
 @keyframes moveBackground {
    0% {
-    background-position: 
-      calc(var(--s)/2) calc(var(--s)*tan(30deg)/2),
-      0 0;
+    background-position: 0 0;
   }
   100% {
-    background-position: 
-      calc(100% + var(--s)) calc(100% + var(--s)*tan(30deg)),
-      var(--s) calc(var(--s)*tan(30deg));
+    background-position: var(--s) var(--s);
   }
 }
 
