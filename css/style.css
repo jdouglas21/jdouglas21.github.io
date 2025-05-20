@@ -8,6 +8,10 @@ body, html {
   font-family: monospace;
 }
 
+.heading {
+  text-align: center;
+}
+
 .content {
   position: relative;
   z-index: 1;
