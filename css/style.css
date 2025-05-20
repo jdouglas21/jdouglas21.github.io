@@ -5,11 +5,13 @@ body, html {
   height: 100%;
   background-color: black;
   color: rgb(121, 207, 41);
-  font-family: monospace;
+  font-family: 'Fira Code', monospace;
 }
 
 .heading {
   text-align: center;
+  font-weight: bold;
+  font-size: 5rem;
 }
 
 .content {
