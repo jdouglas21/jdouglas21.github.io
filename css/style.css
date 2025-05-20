@@ -4,7 +4,7 @@ body, html {
   overflow: hidden;
   height: 100%;
   background-color: black;
-  color: white;
+  color: rgb(121, 207, 41);
   font-family: monospace;
 }
 
@@ -13,4 +13,18 @@ body, html {
   z-index: 1;
   text-align: center;
   padding-top: 20%;
+}
+
+.underline {
+  width: 0;
+  height: 2px;
+  background-color: rgb(121, 207, 41);
+  animation: fillLine 1s forwards;
+  margin-top: 4px;
+}
+
+@keyframes fillLine {
+  to {
+    width: 100vw;
+  }
 }
