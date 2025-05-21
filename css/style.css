@@ -8,7 +8,7 @@ body, html {
   font-family: 'Fira Code', monospace;
 }
 
-.heading {
+.heading-title {
   text-align: center;
   font-weight: bold;
   font-size: 3rem;
@@ -33,4 +33,46 @@ body, html {
   to {
     width: 100vw;
   }
+}
+
+.project {
+  color:rgb(121, 207, 41);
+  font-family: 'Fira Code', monospace;
+  padding: 2rem;
+  background-color: #000;
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.left-text {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 2rem;
+}
+
+.right-text {
+  flex: 0 0 200px;
+  min-width: 200px;
+}
+
+.right-text a {
+  color: rgb(121, 207, 41);
+  text-decoration: underline;
+}
+
+.screenshots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.screenshots img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
 }
