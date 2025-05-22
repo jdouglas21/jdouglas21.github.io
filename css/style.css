@@ -7,6 +7,25 @@ body, html {
   font-family: 'Fira Code', monospace;
 }
 
+.nav-links {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nav-links a {
+  font-family: 'Fira Code', monospace;
+  color: rgb(121, 207, 41);
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 0 1.5rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
 .heading-title {
   text-align: center;
   font-weight: bold;
