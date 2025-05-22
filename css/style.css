@@ -73,13 +73,12 @@ body, html {
   margin-bottom: 3rem;
 }
 
-.screenshots-MUUD {
-  display: grid;
+.screenshots-small {
+  width: 80%;         
+  max-width: 300px;
   margin: 0 auto;
-  max-width: 600px;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1rem;
-  margin-bottom: 3rem;
 }
 
 .screenshots img {
