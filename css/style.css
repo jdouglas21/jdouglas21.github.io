@@ -26,6 +26,12 @@ body, html {
   color: white;
 }
 
+.nav-links a.active {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  font-weight: bold;
+}
+
 .heading-title {
   text-align: center;
   font-weight: bold;
