@@ -73,16 +73,24 @@ body, html {
   margin-bottom: 3rem;
 }
 
-.screenshots-small {
-  width: 80%;         
-  max-width: 300px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-}
-
 .screenshots img {
   width: 100%;
   border-radius: 12px;
   object-fit: cover;
+}
+
+.screenshots-small {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.screenshots-small img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin: 0 auto;
 }
