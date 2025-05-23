@@ -88,7 +88,8 @@ body, html {
 .left-text {
   flex: 1;
   min-width: 300px;
-  max-width: 500px;
+  max-width: 600px;
+  margin-left: 4rem;
   margin-right: 2rem;
 }
 
