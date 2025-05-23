@@ -2,10 +2,11 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: black;
   color: rgb(121, 207, 41);
   font-family: 'Fira Code', monospace;
   position: relative;
-  z-index: 1;
+  z-index: 0;
   overflow-x: hidden;
 }
 
