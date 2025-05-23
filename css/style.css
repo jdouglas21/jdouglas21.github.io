@@ -159,6 +159,10 @@ body, html {
   flex: 1;
 }
 
+.about-text {
+  font: 2rem;
+}
+
 .profile-photo img {
   width: 400px;
   height: auto;
