@@ -35,6 +35,10 @@ body, html {
   font-weight: bold;
 }
 
+.info-links a:hover {
+  color: white;
+}
+
 .heading-title {
   text-align: center;
   font-weight: bold;
