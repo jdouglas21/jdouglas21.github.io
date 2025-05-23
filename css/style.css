@@ -81,7 +81,7 @@ body, html {
 .project-info {
   display: flex;
   justify-content: center;
-  align-items: stretch; /* Align Test */
+  align-items: flex-start; /* Align Test */
   flex-wrap: nowrap; /* Align Test*/
   margin: 0 auto 2rem auto;
   max-width: 1000px;
@@ -92,11 +92,12 @@ body, html {
   flex: 1;
   min-width: 300px;
   max-width: 600px;
+  margin-top: 0; /* Align Test */
+  padding-top: 0; /* Align Test*/
 }
 
 .right-text {
   flex: 0 0 200px;
-  align-self: center; /* Align Test */
   min-width: 200px;
   margin-top: 0;
 }
