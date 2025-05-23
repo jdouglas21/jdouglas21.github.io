@@ -70,6 +70,9 @@ body, html {
 }
 
 .project {
+  max-width: 1000 px;
+  margin: 0 auto;
+  padding: 0 1rem;
   color: rgb(121, 207, 41);
   font-family: 'Fira Code', monospace;
   padding: 2rem;
