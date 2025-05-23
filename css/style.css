@@ -39,6 +39,9 @@ body, html {
   text-align: center;
   font-weight: bold;
   font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  z-index: 1;
 }
 
 .content {
