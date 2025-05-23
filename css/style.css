@@ -145,3 +145,20 @@ body, html {
   left: 0;
   pointer-events: none;
 }
+
+.about-description {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.about-description div {
+  flex: 1;
+}
+
+.profile-photo img {
+  width: 200px;
+  height: auto;
+}
