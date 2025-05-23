@@ -96,6 +96,7 @@ body, html {
 
 .right-text {
   flex: 0 0 200px;
+  align-self: center; /* Align Test */
   min-width: 200px;
   margin-top: 0;
 }
