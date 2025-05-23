@@ -150,8 +150,8 @@ body, html {
   display: flex;
   align-items: center; 
   justify-content: space-between;
-  max-width: 1000px;
-  gap: 4rem;
+  max-width: 1200px;
+  gap: 6rem;
   margin: 2rem;
 }
 
