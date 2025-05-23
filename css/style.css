@@ -85,7 +85,7 @@ body, html {
   flex-wrap: wrap;
   margin: 0 auto 2rem auto;
   max-width: 1000px;
-  gap: 10rem;
+  gap: 40rem;
 }
 
 .left-text {
