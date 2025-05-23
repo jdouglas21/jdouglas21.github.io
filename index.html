@@ -9,7 +9,6 @@
 
   <div id="particles-js"></div>
   
-
   <header>
     <h1 class="heading-title">Welcome to My Portfolio!</h1>
     <h2 class="heading-title">See my works below</h2>
@@ -193,23 +192,6 @@
       </div>
     </section>
   </main>
-
-
-  <script>
-    function resizeParticles() {
-      const body = document.body;
-      const html = document.documentElement;
-      const fullHeight = Math.max(
-        body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight
-      );
-      document.getElementById('particles-js').style.height = fullHeight + 'px';
-    }
-
-    window.addEventListener('load', resizeParticles);
-    window.addEventListener('resize', resizeParticles);
-  </script>
-
 
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
