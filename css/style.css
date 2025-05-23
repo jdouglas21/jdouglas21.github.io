@@ -150,7 +150,7 @@ body, html {
   display: flex;
   align-items: center; 
   justify-content: space-between;
-  max-width: 500px;
+  max-width: 1000px;
   gap: 4rem;
   margin: 2rem;
 }
@@ -160,6 +160,6 @@ body, html {
 }
 
 .profile-photo img {
-  width: 600px;
+  width: 400px;
   height: auto;
 }
