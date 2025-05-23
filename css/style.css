@@ -85,19 +85,19 @@ body, html {
   flex-wrap: wrap;
   margin: 0 auto 2rem auto;
   max-width: 1000px;
-  gap: 2rem;
+  gap: 10rem;
 }
 
 .left-text {
   flex: 1;
   min-width: 300px;
   max-width: 600px;
-  margin-right: 8rem;
 }
 
 .right-text {
   flex: 0 0 200px;
   min-width: 200px;
+  margin-top: 0;
 }
 
 .right-text a {
