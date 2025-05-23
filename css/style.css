@@ -69,7 +69,7 @@ body, html {
   color: rgb(121, 207, 41);
   font-family: 'Fira Code', monospace;
   padding: 2rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: transparent;
   position: relative;
   z-index: 1;
 }
