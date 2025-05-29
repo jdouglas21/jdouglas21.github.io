@@ -216,3 +216,14 @@ figcaption {
   font-size: 0.9rem;
   font-weight: bold;
 }
+
+.article-link {
+  font-family: 'Fira Code', monospace;
+  color: rgb(121, 207, 41);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.article-link:hover {
+  color: white;
+}
