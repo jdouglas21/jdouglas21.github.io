@@ -169,7 +169,7 @@ body, html {
 }
 
 .article {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -196,4 +196,21 @@ body, html {
   text-align: left;
   line-height: 1.7;
   font-size: 1.1rem;
+}
+
+figure {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
