@@ -204,7 +204,7 @@ figure {
 }
 
 figure img {
-  max-width: 80%;
+  max-width: 60%;
   align-items: center;
   height: auto;
   border-radius: 4px;
@@ -212,6 +212,7 @@ figure img {
 
 figcaption {
   margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
   text-align: center;
   font-size: 0.9rem;
   font-weight: bold;
