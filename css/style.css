@@ -221,7 +221,7 @@ figcaption {
   font-family: 'Fira Code', monospace;
   color: rgb(121, 207, 41);
   text-decoration: underline;
-  text-underline-offset: 6px;
+  text-underline-offset: 4px;
   transition: color 0.3s;
 }
 
