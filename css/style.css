@@ -220,7 +220,8 @@ figcaption {
 .article-link {
   font-family: 'Fira Code', monospace;
   color: rgb(121, 207, 41);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 6px;
   transition: color 0.3s;
 }
 
