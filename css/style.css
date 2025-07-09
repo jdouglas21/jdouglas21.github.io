@@ -78,6 +78,15 @@ body, html {
   z-index: 1;
 }
 
+.project-background {
+  background-color: rgba(0, 0, 0, 0.6); /* Opaque dark background */
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 1200px;
+  margin: 0 auto 4rem auto;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.2); /* Optional neon glow */
+}
+
 .project-info {
   display: flex;
   justify-content: center;
