@@ -79,7 +79,7 @@ body, html {
 }
 
 .project-background {
-  background-color: rgba(0, 0, 0, 0.4); 
+  background-color: rgba(0, 0, 0, 0.8); 
   padding: 2rem;
   border-radius: 12px;
   max-width: 1200px;
