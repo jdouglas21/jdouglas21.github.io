@@ -86,6 +86,16 @@ body, html {
   border-radius: 8px 8px 0 0;
 }
 
+.arrow {
+  display: inline-block;
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.dropdown:hover .arrow {
+  transform: rotate(180deg); 
+}
+
 .info-links a:hover {
   color: white;
 }
