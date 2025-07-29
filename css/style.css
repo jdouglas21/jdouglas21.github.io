@@ -89,11 +89,11 @@ body, html {
 .arrow {
   display: inline-block;
   margin-left: 0.5rem;
-  transition: transform 0.3s ease;
+  transition: 0.3s;
 }
 
-.dropdown:hover .arrow {
-  transform: rotate(180deg); 
+.dropdown:hover .arrow::before {
+  content: "v";
 }
 
 .info-links a:hover {
