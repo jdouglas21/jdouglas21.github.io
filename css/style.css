@@ -35,6 +35,53 @@ body, html {
   font-weight: bold;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.drop-button {
+  background-color: transparent;
+  color: #CCCCCC;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 1.5rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(20, 20, 20, 0.95);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+  z-index: 1;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.dropdown-content a {
+  color: #CCCCCC;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s, color 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #333;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: white;
+}
+
 .info-links a:hover {
   color: white;
 }
