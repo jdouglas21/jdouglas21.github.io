@@ -51,7 +51,21 @@
           I also made the levels for the users to play on. I exclusively used Unity and Visual Studio to complete my tasks.  
         </p>
 
-        
+        <h3>Design Challenges</h3>
+        <p>The primary problem I had to solve was how to design a system to easily add and remove projectiles from the list that players could use. 
+          This also included programming and designing unique behaviors for some projectiles such as the bomb item. 
+          This worked in tandem with the other problem I had to solve which was creating a player inventory system that was easy to understand for the player. 
+          I also had to make levels that were user friendly and not cause any cluttering of item pickups or projectiles causing problems with visual clarity.
+        </p>
+
+        <h3>Production Process and Work Samples</h3>
+        <p>Shown below in figure 1 is a screenshot of a user flow diagram for the games item system. This is a rough idea of how the items were programmed and intended to function. 
+          Players overlap with an item spawned by the item spawner and a check is run to see if they already have an item in their invetory. If there is nothing, they can pick it up and it is added to their inventory until ejected as a projectile.
+          If the item the player overlapped with was tagged as a bubble, the player picks it up regardless of whether or not the inventory is full. It is then added to the players bubble count (their health pool) and their player model increases in size.</p>
+        <figure>
+            <figcaption><strong>Figure 1: Item User Flow Diagram</strong></figcaption>
+            <img src="images/ItemUserFlow.png" alt="user_flow_diagram" />
+          </figure>
       </div>
     </section>
 
