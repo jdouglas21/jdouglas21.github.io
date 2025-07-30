@@ -318,3 +318,11 @@ figcaption {
 .article-link:hover {
   color: white;
 }
+
+img[alt="user_flow_diagram"] {
+  max-width: 80%;
+}
+
+img[alt="user_flow_diagram_key"] {
+  max-width: 30%;
+}
