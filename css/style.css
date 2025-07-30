@@ -30,11 +30,11 @@ body, html {
   color: white;
 }
 
-.nav-links a.active-page {
+.nav-links a.active-page,
+.nav-links .drop-button.active-page {
   text-decoration: underline;
   text-underline-offset: 6px;
   font-weight: bold;
-  z-index: 11;
 }
 
 .dropdown {
