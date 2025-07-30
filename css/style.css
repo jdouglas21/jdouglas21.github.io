@@ -320,9 +320,10 @@ figcaption {
 }
 
 img[alt="user_flow_diagram"] {
-  max-width: 80%;
+  max-width: 100%;
 }
 
 img[alt="user_flow_diagram_key"] {
   max-width: 60%;
+  align-items: center;
 }
