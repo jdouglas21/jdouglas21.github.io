@@ -320,8 +320,8 @@ figcaption {
 }
 
 .large-img {
-  width: 200%;
-  max-width: 1000px;
+  width: 100%;
+  max-width: 800px;
   height: auto;
   display: block;
   margin: 0 auto;
