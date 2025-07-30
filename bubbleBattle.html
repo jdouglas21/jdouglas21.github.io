@@ -59,7 +59,7 @@
         </p>
 
         <h3>Production Process and Work Samples</h3>
-        <p>Shown below in figure 1 is a screenshot of a user flow diagram for the games item system. This is a rough idea of how the items were programmed and intended to function. 
+        <p>Shown below in <strong>figure 1</strong> is a screenshot of a user flow diagram for the games item system. This is a rough idea of how the items were programmed and intended to function. 
           Players overlap with an item spawned by the item spawner and a check is run to see if they already have an item in their invetory. If there is nothing, they can pick it up and it is added to their inventory until ejected as a projectile.
           If the item the player overlapped with was tagged as a bubble, the player picks it up regardless of whether or not the inventory is full. It is then added to the players bubble count (their health pool) and their player model increases in size.</p>
 
@@ -72,7 +72,37 @@
             <figcaption><strong>Figure 2: Item User Flow Diagram Key</strong></figcaption>
             <img src="images/ItemUserFlowKey.png" alt="user_flow_diagram_key"/>
         </figure>
-        
+
+        <h3>Final Design of Bubble Battle</h3>
+        <figure>
+            <figcaption><strong>Figure 3: Early Game Image</strong></figcaption>
+            <img src="images/EarlyGameImage.png" alt="early_game_image"/>
+        </figure>
+
+        <p><strong>Key Notes:</strong></p>
+        <li>In the early stages of development several objects were simple shapes</li>
+        <li>Items were pink boxes, bubbles were cyan circles, and the player model was just a green circle</li>
+        <li>The white square would pop up to indicate that the player had an item in their inventory</li>
+        <li>When the player fired, it would shoot out the white square, indicating their inventory was empty</li>
+        <li>At this time in development, there was no multiplayer feature built in yet and not even walls for the player to collide with</li>
+        <li>There was an item spawner and pickup system already in place by this stage</li>
+
+        <figure>
+            <figcaption><strong>Figure 4: Final Game Image</strong></figcaption>
+            <img src="images/FinalGameImage.png" alt="final_game_image"/>
+        </figure>
+
+        <p><strong>Key Notes:</strong></p>
+        <li>In the final stage of the game, the visuals were much more fleshed out</li>
+        <li>The artists worked very hard to make the items look distinct and easy for the player to understand</li>
+        <li>The player models are a helpful baseline for the player to understand where their player model is facing</li>
+        <li>The items now have fully rendered sprites</li>
+        <li>The projectiles behave in their own unique fashions</li>
+        <li>Walls were added to prevent the players from moving around infinitely and also to make levels dynamic</li>
+        <li>A timer was added to ensure the matches didn’t go on forever</li>
+        <li>Four players could play the game at once</li>
+        <li>There is also a fully made menu system</li>
+
       </div>
     </section>
 
