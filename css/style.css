@@ -338,3 +338,7 @@ img[alt="drawn_mockup_muud"] {
 img[alt="figma_muud"] {
   max-width: 100%;
 }
+
+img[alt="final_muud_screens"] {
+  max-width: 80%;
+}
