@@ -344,7 +344,9 @@ img[alt="final_muud_screens"] {
 }
 
 img[alt="IST402_foliage"] {
-  max-width: 200% !important;
+  width: 150%;
+  max-width: none;
+  height: auto;
 }
 
 figure img.screenshot_image_type {
