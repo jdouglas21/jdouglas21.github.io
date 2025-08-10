@@ -344,7 +344,13 @@ img[alt="final_muud_screens"] {
 }
 
 img[alt="IST402_foliage"] {
-  width: 90%;
+  width: 80%;
+  max-width: none;
+  height: auto;
+}
+
+img[alt="IST402_flower_field"] {
+  width: 80%;
   max-width: none;
   height: auto;
 }
