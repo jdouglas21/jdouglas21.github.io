@@ -343,6 +343,6 @@ img[alt="final_muud_screens"] {
   max-width: 80%;
 }
 
-.screenshot_image_type {
-   max-width: 90%;
+figure img.screenshot_image_type {
+   max-width: 80%;
 }
