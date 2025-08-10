@@ -342,3 +342,7 @@ img[alt="figma_muud"] {
 img[alt="final_muud_screens"] {
   max-width: 80%;
 }
+
+.screeshot_image_type {
+   max-width: 60%;
+}
