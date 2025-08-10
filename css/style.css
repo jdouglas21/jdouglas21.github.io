@@ -359,3 +359,8 @@ figure img.screenshot_image_type {
    max-width: 80% !important;
    height: auto !important;
 }
+
+figure img.screenshot_image_type_jb {
+   max-width: 90% !important;
+   height: auto !important;
+}
