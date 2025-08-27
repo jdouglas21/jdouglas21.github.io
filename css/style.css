@@ -113,6 +113,13 @@ body, html {
   z-index: 1;
 }
 
+.sub-heading {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+
 .content {
   position: relative;
   z-index: 1;
