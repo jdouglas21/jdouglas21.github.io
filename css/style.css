@@ -105,6 +105,20 @@ body, html {
   color: white;
 }
 
+.header-name {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  z-index: 10;
+}
+
+.site-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  color: #CCCCCC;
+}
+
 .heading-title {
   text-align: center;
   font-weight: bold;
