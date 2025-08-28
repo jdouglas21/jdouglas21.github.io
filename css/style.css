@@ -113,9 +113,11 @@ body, html {
 }
 
 .site-header {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
   position: relative;
-  padding-top: 60px;
-  text-align: center;
 }
 
 .site-name {
